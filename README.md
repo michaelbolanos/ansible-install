@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Ansible Install
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" alt="Ansible Logo" width="150"/>
@@ -99,3 +100,6 @@ This project is licensed under the MIT License.
 ---
 
 **👤 Author:** [Michael Bolanos](https://github.com/michaelbolanos) 🚀
+=======
+# ansible-install
+>>>>>>> e85f918 (Initial commit)
