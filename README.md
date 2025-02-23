@@ -2,6 +2,8 @@ http://offthegridit.com/wp-content/uploads/2025/01/terminalgif.gif  # 🚀 Ansib
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" alt="Ansible Logo" width="170px">
 
+![Description](http://offthegridit.com/wp-content/uploads/2025/01/terminalgif.gif)
+
 <img src="http://offthegridit.com/wp-content/uploads/2025/01/terminalgif.gif" alt="Terminal Output">
 
 This finely tuned repository provides a simple way to set up OpenSSH and configure public keys on multiple Ubuntu machines to prepare them for Ansible automation.
