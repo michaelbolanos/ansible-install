@@ -19,7 +19,7 @@ To get started, clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/michaelbolanos/ansible-install.git
-cd ansible-install
+cd ansible-install/scripts
 ```
 
 ---
