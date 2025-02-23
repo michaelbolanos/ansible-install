@@ -112,12 +112,17 @@ Now, on each Ubuntu machine, run:
 ```bash
 curl -sSL https://raw.githubusercontent.com/michaelbolanos/repo-name/main/install_ssh.sh | bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+=======
+
+```
 
 ### Using `wget`
 ```bash
 wget -qO- https://raw.githubusercontent.com/michaelbolanos/repo-name/main/install_ssh.sh | bash
+<<<<<<< HEAD
 =======
 
 =======
@@ -125,3 +130,7 @@ wget -qO- https://raw.githubusercontent.com/michaelbolanos/repo-name/main/instal
 
 Now, on each Ubuntu machine, run:
 =======
+=======
+
+```
+
