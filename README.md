@@ -4,7 +4,7 @@
 
 ![Terminal Output](terminal1gif.gif)
 
-<img src="terminal1gif.gif" width="210" alt="Terminal Output">
+
 
 This finely tuned repository provides a simple way to set up OpenSSH and configure public keys on multiple Ubuntu machines to prepare them for Ansible automation.
 
