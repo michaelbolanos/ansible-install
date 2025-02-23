@@ -2,7 +2,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" alt="Ansible Logo" width="170px">
 
-![Terminal GIF](https://offthegridit.com/wp-content/uploads/2025/01/terminalgif.gif)
+![Terminal GIF](https://offthegridit.com/wp-content/uploads/2025/01/terminal1gif.gif)
 
 ![GIF Description](terminalgif.gif)
 
