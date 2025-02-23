@@ -4,7 +4,7 @@
 
 ![Terminal GIF](https://offthegridit.com/wp-content/uploads/2025/01/terminalgif.gif)
 
-![GIF Description](assets/terminalgif.gif)
+![GIF Description](terminalgif.gif)
 
 
 This finely tuned repository provides a simple way to set up OpenSSH and configure public keys on multiple Ubuntu machines to prepare them for Ansible automation.
