@@ -1,13 +1,13 @@
 # 🚀 Ansible Install
 
-![Ansible Logo](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" alt="Ansible Logo" width="170px">
 
 This finely tuned repository provides a simple way to set up OpenSSH and configure public keys on multiple Ubuntu machines to prepare them for Ansible automation.
 
 ## 🌟 Features
-✅ Installs OpenSSH on target Ubuntu machines.
-✅ Adds your public SSH keys for seamless Ansible access.
-✅ Includes a sample `hosts.txt` file for Ansible inventory.
+✅ Installs OpenSSH on target Ubuntu machines.  
+✅ Adds your public SSH keys for seamless Ansible access.  
+✅ Includes a sample `hosts.txt` file for Ansible inventory.  
 
 ---
 
@@ -59,8 +59,14 @@ bash ssh-keys.sh
 ```
 
 📌 This script will:
-- 📤 Copy your SSH public key to each host listed in `hosts.txt`
-- 🔒 Ensure secure key-based authentication
+```bash
+# Copy SSH public key to each host in hosts.txt
+while read -r host; do
+    ssh-copy-id -i ~/.ssh/id_rsa.pub "ubuntu@$host"
+done < hosts.txt
+```
+- 📤 Copies your SSH public key to each host listed in `hosts.txt`
+- 🔒 Ensures secure key-based authentication
 
 ---
 
@@ -99,4 +105,3 @@ This project is licensed under the MIT License.
 ---
 
 **👤 Author:** [Michael Bolanos](https://github.com/michaelbolanos) 🚀
-
