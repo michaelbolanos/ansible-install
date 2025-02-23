@@ -41,16 +41,17 @@ plaintext
 ## 🔧 Step 3: Install OpenSSH via Curl or Wget
 
 Run the following command on each Ubuntu machine to install OpenSSH.
+---
 
 ### Using curl
 bash
 curl -sSL https://raw.githubusercontent.com/michaelbolanos/ansible-install/main/install_ssh.sh | bash
 
+---
 
 ### Using wget
 bash
 wget -qO- https://raw.githubusercontent.com/michaelbolanos/ansible-install/main/install_ssh.sh | bash
-
 
 ---
 
@@ -64,6 +65,9 @@ bash ssh-keys.sh
 
 📌 This script will:
 bash
+
+---
+
 # Copy SSH public key to each host in hosts.txt
 while read -r host; do
     ssh-copy-id -i ~/.ssh/id_rsa.pub "ubuntu@$host"
