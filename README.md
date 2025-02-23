@@ -111,18 +111,17 @@ Now, on each Ubuntu machine, run:
 ### Using `curl`
 ```bash
 curl -sSL https://raw.githubusercontent.com/michaelbolanos/repo-name/main/install_ssh.sh | bash
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
 
 =======
+=======
+curl -sSL https://raw.githubusercontent.com/michaelbolanos/ansible-install/main/install_ssh.sh | bash
 
 ```
 
 ### Using `wget`
 ```bash
 wget -qO- https://raw.githubusercontent.com/michaelbolanos/repo-name/main/install_ssh.sh | bash
-<<<<<<< HEAD
 =======
 
 =======
@@ -131,6 +130,9 @@ wget -qO- https://raw.githubusercontent.com/michaelbolanos/repo-name/main/instal
 Now, on each Ubuntu machine, run:
 =======
 =======
+=======
+wget -qO- https://raw.githubusercontent.com/michaelbolanos/ansible-install/main/install_ssh.sh | bash
+>>>>>>> 0d71c3a (Update README.md)
 
 ```
 
