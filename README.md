@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🚀 Ansible Install
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" alt="Ansible Logo" width="150"/>
@@ -6,8 +7,8 @@
 This repository provides a simple way to set up OpenSSH and configure public keys on multiple Ubuntu machines to prepare them for Ansible automation.
 
 ## 🌟 Features
-✅ Installs OpenSSH on target Ubuntu machines.  
-✅ Adds your public SSH keys for seamless Ansible access.  
+✅ Installs OpenSSH on target Ubuntu machines. 
+✅ Adds your public SSH keys for seamless Ansible access. 
 ✅ Includes a sample `hosts.txt` file for Ansible inventory.
 
 ---
@@ -103,3 +104,12 @@ This project is licensed under the MIT License.
 =======
 # ansible-install
 >>>>>>> e85f918 (Initial commit)
+=======
+## Step 3: Install OpenSSH via Curl or Wget
+
+Now, on each Ubuntu machine, run:
+
+### Using `curl`
+```bash
+curl -sSL https://raw.githubusercontent.com/michaelbolanos/repo-name/main/install_ssh.sh | bash
+>>>>>>> 22b3d15 (Update README.md)
