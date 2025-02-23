@@ -9,6 +9,9 @@ This finely tuned repository provides a simple way to set up OpenSSH and configu
 ✅ Adds your public SSH keys for seamless Ansible access.  
 ✅ Includes a sample `hosts.txt` file for Ansible inventory.  
 
+<img src="http://offthegridit.com/wp-content/uploads/2025/01/terminalgif.gif" alt="Terminal Demo" width="100%">
+
+
 ---
 
 ## 📥 Step 1: Clone the Repository
