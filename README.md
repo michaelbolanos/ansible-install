@@ -112,4 +112,12 @@ Now, on each Ubuntu machine, run:
 ### Using `curl`
 ```bash
 curl -sSL https://raw.githubusercontent.com/michaelbolanos/repo-name/main/install_ssh.sh | bash
+<<<<<<< HEAD
 >>>>>>> 22b3d15 (Update README.md)
+=======
+
+
+### Using `wget`
+```bash
+wget -qO- https://raw.githubusercontent.com/michaelbolanos/repo-name/main/install_ssh.sh | bash
+>>>>>>> b3468d6 (Update README.md)
