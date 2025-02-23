@@ -2,7 +2,7 @@
 
 ![Ansible Logo](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
 
-This fine repository provides a simple way to set up OpenSSH and configure public keys on multiple Ubuntu machines to prepare them for Ansible automation.
+This finely tuned repository provides a simple way to set up OpenSSH and configure public keys on multiple Ubuntu machines to prepare them for Ansible automation.
 
 ## 🌟 Features
 ✅ Installs OpenSSH on target Ubuntu machines.
