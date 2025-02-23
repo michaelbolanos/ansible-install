@@ -42,12 +42,12 @@ Run the following command on each Ubuntu machine to install OpenSSH.
 
 ### Using `curl`
 ```bash
-curl -sSL https://raw.githubusercontent.com/michaelbolanos/ansible-install/main/install_ssh.sh | bash
+curl -sSL https://raw.githubusercontent.com/michaelbolanos/ansible-install/main/scripts/install_ssh.sh | bash
 ```
 
 ### Using `wget`
 ```bash
-wget -qO- https://raw.githubusercontent.com/michaelbolanos/ansible-install/main/install_ssh.sh | bash
+wget -qO- https://raw.githubusercontent.com/michaelbolanos/ansible-install/main/scripts/install_ssh.sh | bash
 ```
 
 ---
