@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # 🚀 Ansible Install
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" alt="Ansible Logo" width="150"/>
@@ -104,27 +101,25 @@ This project is licensed under the MIT License.
 **👤 Author:** [Michael Bolanos](https://github.com/michaelbolanos) 🚀
 =======
 # ansible-install
->>>>>>> e85f918 (Initial commit)
 =======
 ## Step 3: Install OpenSSH via Curl or Wget
 =======
 ## Step 3: Install OpenSSH via Curl
->>>>>>> fa7d2b1 (Update README.md)
 
 Now, on each Ubuntu machine, run:
 
 ### Using `curl`
 ```bash
 curl -sSL https://raw.githubusercontent.com/michaelbolanos/repo-name/main/install_ssh.sh | bash
-<<<<<<< HEAD
->>>>>>> 22b3d15 (Update README.md)
 =======
 
-<<<<<<< HEAD
 
 ### Using `wget`
 ```bash
 wget -qO- https://raw.githubusercontent.com/michaelbolanos/repo-name/main/install_ssh.sh | bash
->>>>>>> b3468d6 (Update README.md)
 =======
->>>>>>> fa7d2b1 (Update README.md)
+
+=======
+## Step 3: Install OpenSSH via Curl
+
+Now, on each Ubuntu machine, run:
