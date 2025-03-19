@@ -1,19 +1,19 @@
-# 🚀 Ansible Install
+# Ansible Install
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" alt="Ansible Logo" width="170px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" alt="Ansible Logo" width="72px">
 
 
 
-This finely tuned repository provides a simple way to set up OpenSSH and configure public keys on multiple Ubuntu machines to prepare them for Ansible automation.
+This repo provides a simple way to set up OpenSSH and configure public keys on multiple Ubuntu machines to prepare them for Ansible automation.
 
-## 🌟 Features
+## Features
 ✅ Installs OpenSSH on target Ubuntu machines.  
 ✅ Adds your public SSH keys for seamless Ansible access.  
 ✅ Includes a sample `hosts.txt` file for Ansible inventory.  
 
 ---
 
-## 📥 Step 1: Clone the Repository
+## Step 1: Clone the Repository
 
 To get started, clone this repository to your local machine:
 
@@ -24,7 +24,7 @@ cd ansible-install/scripts
 
 ---
 
-## 📄 Step 2: Configure Your Hosts File
+## Step 2: Configure Your Hosts File
 
 Edit the `hosts.txt` file to include the IP addresses or hostnames of the machines you want to manage with Ansible:
 
@@ -36,7 +36,7 @@ Edit the `hosts.txt` file to include the IP addresses or hostnames of the machin
 
 ---
 
-## 🔧 Step 3: Install OpenSSH via Curl or Wget
+## Step 3: Install OpenSSH via Curl or Wget
 
 Run the following command on each Ubuntu machine to install OpenSSH.
 
@@ -52,7 +52,7 @@ wget -qO- https://raw.githubusercontent.com/michaelbolanos/ansible-install/main/
 
 ---
 
-## 🔑 Step 4: Copy SSH Keys to Remote Machines
+## Step 4: Copy SSH Keys to Remote Machines
 
 To enable passwordless SSH authentication, use the provided `ssh-keys.sh` script. Run this from your control machine:
 
@@ -60,7 +60,7 @@ To enable passwordless SSH authentication, use the provided `ssh-keys.sh` script
 bash ssh-keys.sh
 ```
 
-📌 This script will:
+This script will:
 
 ```bash
 # Copy SSH public key to each host in hosts.txt
@@ -69,12 +69,12 @@ while read -r host; do
 done < hosts.txt
 ```
 
-- 📤 Copies your SSH public key to each host listed in `hosts.txt`
-- 🔒 Ensures secure key-based authentication
+- Copies your SSH public key to each host listed in `hosts.txt`
+- Ensures secure key-based authentication
 
 ---
 
-## ✅ Step 5: Verify SSH Access
+## Step 5: Verify SSH Access
 
 Once keys are copied, test SSH access to the remote machines:
 
@@ -94,17 +94,10 @@ Now that SSH is configured, install Ansible and begin automating your infrastruc
 sudo apt update && sudo apt install -y ansible
 ```
 
-You can now create an Ansible inventory file and start managing your machines!
+You can now create an Ansible inventory file and start managing your machines
 
 ---
 
-## 🤝 Contributing
-Pull requests are welcome! If you find any issues or want to enhance this setup, feel free to submit a PR.
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
 
 ---
 
