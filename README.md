@@ -86,7 +86,7 @@ If login works without a password prompt, you're ready to use Ansible! 🎉
 
 ---
 
-## ⚙️ Next Steps: Set Up Ansible
+## Next Steps: Set Up Ansible
 
 Now that SSH is configured, install Ansible and begin automating your infrastructure.
 
@@ -98,7 +98,3 @@ You can now create an Ansible inventory file and start managing your machines
 
 ---
 
-
----
-
-**👤 Author:** [Michael Bolanos](https://github.com/michaelbolanos) 🚀
